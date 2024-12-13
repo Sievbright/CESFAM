@@ -1,0 +1,22 @@
+.return {
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 14px;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+.titulo_main {
+  padding: 120px 0 50px 0;
+  text-align: center;
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 25px;
+}
+
+a[class="btn btn-success"]{
+  background-color: cornflowerblue;
+}
+
+a[class="btn btn-success"]:hover{
+  background-color: rgb(64, 121, 227);
+}

@@ -1,0 +1,38 @@
+.return {
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 14px;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+.titulo_main {
+  padding: 100px 0 50px 0;
+  text-align: center;
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 25px;
+}
+
+input[type="text"], input[type="number"], input[type="email"], select{
+  background-color: rgb(231, 237, 238);
+}
+
+button[type="submit"] {
+  background-color: cornflowerblue;
+}
+
+.formulario-container {
+  padding: 20px; /* Añade espacio interior */
+  margin: 20px auto; /* Añade espacio exterior y centra el formulario */
+  max-width: 600px; /* Limita el ancho del formulario */
+  background-color: #f9f9f9; /* Color de fondo opcional */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle estilo */
+}
+
+input[type="text"], input[type="number"], input[type="email"], select, textarea {
+  width: 100%; /* Asegura que los campos ocupen todo el ancho del formulario */
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,83 @@
+header {
+  background-color: cornflowerblue;
+  width: 100%;
+  left: 0; 
+  top: 0; 
+  position: fixed;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between; /* Esto alinea el contenido a la izquierda */
+  align-items: center; /* Alinea verticalmente al centro */
+}
+
+header p {
+  padding: 15px 0 0 0;
+  font-size: 25px;
+  font-family: "Verdana", Geneva, sans-serif;
+  color: white;
+  margin-left: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center; /* Asegura que los elementos dentro de la navbar estén alineados verticalmente */
+  margin-right: 50px;
+  padding: 15px 0 0 0;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+.menu-link:hover {
+  font-weight: bold;
+}
+
+.material-icons {
+  position: absolute;
+  right: 0;
+  top: 50%; /*Esto alínea la parte superior con el centro del header*/
+  transform: translateY(-50%); /*Luego, esto lo desplaza hacia arriba un 50% de su propia altura, dejándolo justo al medio*/
+  vertical-align: middle;
+  color: white;
+  padding-right: 20px;
+}
+
+footer {
+  background-color: #222835; /* Color de fondo del footer */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espaciado interno */
+  text-align: center; /* Centra el texto */
+}
+
+footer p {
+  text-align: right; /* Alinea el texto a la derecha */
+  font-size: 15px;
+  color: white;
+  margin: 0; /* Elimina el margen predeterminado del párrafo */
+  line-height: 30px; /* Alinea verticalmente el texto en el footer */
+  margin: 10px 30px 10px 0;
+}
+
+.wrapper {
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+}
+
+.bloque-principal {
+  flex: 1; 
+  margin-bottom: 100px;
+}

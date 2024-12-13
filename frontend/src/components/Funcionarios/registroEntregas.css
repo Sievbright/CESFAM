@@ -1,0 +1,21 @@
+.return {
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 14px;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+.titulo_main {
+  padding: 100px 0 50px 0;
+  text-align: center;
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}

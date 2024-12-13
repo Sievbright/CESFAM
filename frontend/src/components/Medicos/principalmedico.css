@@ -1,0 +1,84 @@
+.return {
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 14px;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+.titulo_main {
+  padding: 100px 0 40px 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 25px;
+}
+
+/*---*/
+
+blockquote {
+  padding: 3px 10px;
+  border: PowderBlue 3px solid;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: block;
+  /* Asegura que blockquote se comporte como un bloque */
+  margin-left: auto;
+  /* Margen izquierdo automático */
+  margin-right: auto;
+  /* Margen derecho automático */
+  width: fit-content;
+  /* Ajusta el ancho al contenido */
+  background-color: powderblue;
+  font-size: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.centrar {
+  /*referencia a class*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  /* 100% de la altura de la ventana */
+}
+
+td {
+  border: 2px solid none;
+  /* grosor, estilo, color borde*/
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(230, 253, 255);
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: rgb(218, 227, 228);
+}
+
+table {
+  border-spacing: 10px;
+  border-collapse: separate;
+  margin: 50px;
+}
+
+/*links*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bloque-principal {
+  flex: 1;
+  margin-bottom: 100px;
+}

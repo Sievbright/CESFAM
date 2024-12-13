@@ -1,0 +1,55 @@
+/* serviciomensajeria.css */
+.servicio-mensajeria header {
+    background-color: cornflowerblue;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed; 
+  }
+  
+  .servicio-mensajeria header p {
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: "Verdana", Geneva, sans-serif;
+    color: white;
+  }
+  
+  .servicio-mensajeria .navbar { 
+    display: flex; 
+    justify-content: flex-end; 
+  }
+  
+  .servicio-mensajeria .menu {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+  }
+  
+  .servicio-mensajeria .menu li {
+    margin-right: 20px; 
+  }
+  
+  .servicio-mensajeria .menu-link { 
+    text-decoration: none;
+    color: white;
+    font-family: "Verdana", Geneva, sans-serif;
+  }
+  
+  .servicio-mensajeria .titulo_main {
+    padding: 70px 0 20px 0; 
+    text-align: center;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-size: 25px;
+  }
+  
+  .servicio-mensajeria .container {
+    max-width: 600px;
+    margin: 50px auto; 
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ... other styles with the "servicio-mensajeria" prefix ... */

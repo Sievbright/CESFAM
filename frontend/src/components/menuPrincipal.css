@@ -1,0 +1,32 @@
+.return {
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 14px;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+.titulo_main {
+  padding: 100px 0 40px 0;
+  text-align: center;
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 25px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 25px;
+}
+
+a[class="btn btn-link"] {
+  text-decoration: none;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Opcional: centra verticalmente si es necesario */
+  flex-direction: column; /* Coloca los botones uno debajo del otro */
+}
+
